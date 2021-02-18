@@ -10,6 +10,7 @@ window.navigator.mediaDevices.getUserMedia({video: true, audio: true})
         };
     })
     .catch(error => {
-        alert('Camera isnt enabled');
+        // alert('Camera isnt enabled');
+        console.log('Camera isnt enabled');
     })
 ;

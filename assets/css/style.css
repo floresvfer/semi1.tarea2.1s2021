@@ -1,11 +1,18 @@
 body{
     font-family: 'Press Start 2P', cursive;
-
-    /*font-family: 'Libre Barcode 128 Text', cursive;*/
     /*font-family: 'Press Start 2P', cursive;*/
 
     background-color: #1d1d1d;
     color: white;
+}
+
+h1, #myId {
+    width: 100%;
+    text-align: center;
+}
+
+#myId {
+    font-family: 'Libre Barcode 128 Text', cursive;
 }
 
 video {
