@@ -1,0 +1,23 @@
+body{
+    font-family: 'Press Start 2P', cursive;
+
+    /*font-family: 'Libre Barcode 128 Text', cursive;*/
+    /*font-family: 'Press Start 2P', cursive;*/
+
+    background-color: #1d1d1d;
+    color: white;
+}
+
+video {
+    border: white;
+}
+
+.blink_me {
+    animation: blinker 1s step-end infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
